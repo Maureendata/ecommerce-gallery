@@ -22,6 +22,7 @@
     background:black;
     transform:scale(1.08);
     box-shadow:inset 10px 10px 10px  red;
+    position:relative;
 }
 .gallery img{
     width:100%;
@@ -139,4 +140,21 @@ form button{
     border-radius:30px;
     margin-top:40px;
     box-shadow:10px 10px 5px red;
+}
+.controls{
+    position:absolute;
+    bottom:40px;
+    right:40px;
+}
+.btn{
+    background:blue;
+    display:block;
+    border-radius:50%;
+    width:10px;
+    height:15px;
+    margin:10px;
+    cursor:pointer;
+}
+.btn.active{
+    background-color:green;
 }
